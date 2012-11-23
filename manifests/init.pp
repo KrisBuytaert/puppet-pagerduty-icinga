@@ -1,6 +1,6 @@
 # == Class: pagerduty
 #
-# This class will configure and install the pagerduty config for 
+# This class will configure and install the pagerduty config for
 #  -Icinga
 #
 # === Parameters
