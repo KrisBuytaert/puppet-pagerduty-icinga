@@ -1,6 +1,5 @@
 class pagerduty::params(
   $servicekey ='',
-  $icinga_cfg_path = '/etc/icinga/',
-
+  $icinga_cfg_path = '/etc/icinga/'
 ){
 }

@@ -2,7 +2,7 @@ class pagerduty::config {
 
   require pagerduty::params
 
-  file {"${::pagerduty::params::icinga_cfg_path}/objects":
+  file {"${::pagerduty::params::icinga_cfg_path}/objects/pagerduty_icinga.cfg":
     ensure  => present,
     content => template('pagerduty/pagerduty_icinga.cfg.erb'),
     owner   => 'icinga',

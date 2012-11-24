@@ -36,4 +36,6 @@
 class pagerduty {
 
 
+  include pagerduty::package
+  include pagerduty::config
 }

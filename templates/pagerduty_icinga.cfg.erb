@@ -7,7 +7,7 @@ define contact {
        host_notification_options                d,r
        service_notification_commands            notify-service-by-pagerduty
        host_notification_commands               notify-host-by-pagerduty
-       pager                                    <%= scope.lookupvar('pagerduty::params::servicekey') %>>
+       pager                                    <%= scope.lookupvar('pagerduty::params::servicekey') %>
 }
 
 define command {
