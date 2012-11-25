@@ -16,6 +16,8 @@ class pagerduty::config {
   }
 
   cron {'pagerduty':
+    ensure  => present,
+    user    => 'icinga',
     command => '/usr/local/bin/pagerduty_icinga.pl flush',
   }
 
