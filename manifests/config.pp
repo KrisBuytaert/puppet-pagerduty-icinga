@@ -16,7 +16,7 @@ class pagerduty::config {
   }
 
   cron {'pagerduty':
-    command => '/usr/local/bin/pagerduty_icinga.pl',
+    command => '/usr/local/bin/pagerduty_icinga.pl flush',
   }
 
 }

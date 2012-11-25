@@ -1,6 +1,9 @@
 define contact {
        contact_name                             pagerduty
        alias                                    PagerDuty Pseudo-Contact
+       contactgroups                            admins
+       service_notifications_enabled            1
+       can_submit_commands                      1
        service_notification_period              24x7
        host_notification_period                 24x7
        service_notification_options             w,u,c,r
